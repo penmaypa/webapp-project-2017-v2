@@ -6,5 +6,9 @@ $json = json_decode($json, true);
 echo $json["_embedded"]["events"][0]["name"];
 
 //echo var_dumps($json["_embedded"]);
+
+$apke = 'test';
+echo test;
+
 ?>
 
