@@ -26,7 +26,7 @@
 ?>
 
 <html>
-       <form action="displaydata.php" method="post">
+       <form action="registration.php" method="post">
           Username:<br>
           <input type="int" name="user_id">
           <br>
