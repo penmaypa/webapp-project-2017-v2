@@ -2,7 +2,7 @@
 // Extract data from the data base
 
 
-   $user = 'penmaypa';
+   $user = 'root';
    $pass = '';
    $db = 'testdb';
    
