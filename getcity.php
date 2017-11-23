@@ -14,7 +14,7 @@
 
    echo "Connected successfully <br> <br>";
    
-  
+  $hello;
 
 $sql = "SELECT * FROM users WHERE username='rehan'";
 	$result = $conn->query($sql);
@@ -22,11 +22,15 @@ $sql = "SELECT * FROM users WHERE username='rehan'";
 	if ($result->num_rows > 0) {
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
-echo "ID: " . $row["user_id"] . "<br> User ID: " . $row["user_id"]. "<br>" . " User Name: " . $row["username"]. "<br>" . " City: " . $row["city"] . " " . "<br>";
+        echo "ID: " . $row["user_id"] . "<br> User ID: " . $row["user_id"]. "<br>" . " User Name: " . $row["username"]. "<br>" . " City: " . $row["city"] . " " . "<br>";
+	
+	    $hello = $row["city"];
 	}
 	} else {
 	echo "0 results";
 	}
+
+echo "<br><br>".$hello ;
 
 ?>
 
