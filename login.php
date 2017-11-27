@@ -14,9 +14,16 @@
 
    echo "Connected successfully <br> <br>";
    
+  //insert
+	if(isset($_POST['login']))
+	{
+	   $usnamelog = $_POST["user_id"] ;
+	}
 
 //update
-$unamelog = "penuel";
+   
+
+//update
 $sql = "SELECT username FROM users WHERE username="."'".$unamelog."'";
 	$result = $conn->query($sql);
 
@@ -32,7 +39,7 @@ echo "ID: " . $row["user_id"] . "<br> User ID: " . $row["user_id"]. "<br>" . " U
 ?>
 
 <html>
-       <form action="displaydata.php" method="post">
+       <form action="login.php" method="post">
           Username:<br>
           <input type="varchar" name="username">
           <br>
