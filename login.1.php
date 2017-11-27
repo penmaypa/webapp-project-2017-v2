@@ -14,10 +14,19 @@
 
    echo "Connected successfully <br> <br>";
    
+   
+   //insert
+	if(isset($_POST['save']))
+	{
+		$sql = "INSERT INTO users (user_id, username, city)
+		VALUES ('".$_POST["user_id"]."','".$_POST["username"]."','".$_POST["city"]."')";
+
+		$result = mysqli_query($conn,$sql);
+	}
 
 //update
-$unamelog = "penuel";
-$sql = "SELECT username FROM users WHERE username="."'".$unamelog."'";
+
+$sql = "SELECT * FROM users";
 	$result = $conn->query($sql);
 
 	if ($result->num_rows > 0) {
@@ -33,13 +42,16 @@ echo "ID: " . $row["user_id"] . "<br> User ID: " . $row["user_id"]. "<br>" . " U
 
 <html>
        <form action="displaydata.php" method="post">
+          User ID:<br>
+          <input type="int" name="user_id">
+          <br>
           Username:<br>
           <input type="varchar" name="username">
           <br>
-         Password: <br>
-          <input type="varchar" name="password">
+          City:<br>
+          <input type="varchar" name="city">
           <br><br>
-          <input type="submit" name="login">
+          <input type="submit" name="save">
         </form> 
 </html>
 

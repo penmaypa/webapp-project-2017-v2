@@ -31,6 +31,6 @@ $sql = "SELECT * FROM users WHERE username='rehan'";
 	}
 
 echo "<br><br>".$hello ;
-
+echo "This is the variable city".$user_city;
 ?>
 

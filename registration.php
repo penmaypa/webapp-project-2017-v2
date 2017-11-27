@@ -28,10 +28,10 @@
 <html>
        <form action="registration.php" method="post">
           Username:<br>
-          <input type="int" name="user_id">
+          <input type="varchar" name="username">
           <br>
           Password:<br>
-          <input type="varchar" name="username">
+          <input type="varchar" name="password">
           <br>
           Email:<br>
           <input type="varchar" name="email">

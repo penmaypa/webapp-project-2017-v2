@@ -1,14 +1,15 @@
 <?php
 
-$json = file_get_contents("https://app.ticketmaster.com/discovery/v2/events.json?size=1&apikey=heleoTqKM6BG8OtZfxjDcLGqkGOdMIzf");
-$json = json_decode($json, true);
-
-echo $json["_embedded"]["events"]["0"]["name"];
-
-//echo var_dumps($json["_embedded"]);
-
-$apke = 'test';
-echo test;
-
 ?>
 
+<html>
+       <form action="displaydata.php" method="post">
+          Username:<br>
+          <input type="varchar" name="username">
+          <br>
+          Password:<br>
+          <input type="varchar" name="city">
+          <br><br>
+          <input type="submit" name="save">
+        </form> 
+</html>
