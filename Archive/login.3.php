@@ -15,13 +15,12 @@
     $password = stripslashes($_REQUEST['password']);
     $password = mysqli_real_escape_string($conn,$password);
     //Checking is user existing in the database or not
-            $query = "SELECT * FROM `users` WHERE username='$username'and password='".md5($password)."'";
+            $query = "SELECT * FROM `users` WHERE username='$username'";
     $result = mysqli_query($conn,$query) or die(mysql_error());
     $rows = mysqli_num_rows($result);
             if($rows==1){
     $_SESSION['username'] = $username;
- 
-    header("Location: user-profile.php"); // Redirect user to index.php
+    header("Location: index.php"); // Redirect user to index.php
                 }else{
     echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
     }

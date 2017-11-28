@@ -2,7 +2,7 @@
 
 $x=0;
 
-$json = file_get_contents("https://app.ticketmaster.com/discovery/v2/events.json?apikey=heleoTqKM6BG8OtZfxjDcLGqkGOdMIzf&city=").$city");
+$json = file_get_contents("https://app.ticketmaster.com/discovery/v2/events.json?apikey=heleoTqKM6BG8OtZfxjDcLGqkGOdMIzf&city=dublin");
 $json = json_decode($json, true);
 
 for ($x = 0; $x <= 20; $x++) {
