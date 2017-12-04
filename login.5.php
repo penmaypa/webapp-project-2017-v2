@@ -1,7 +1,5 @@
 <?php
 // Extract data from the data base
-    session_start();
-$_SESSION['myvar'] = 'hello';
 
 
    $user = 'root';
@@ -16,23 +14,14 @@ $_SESSION['myvar'] = 'hello';
     $username = mysqli_real_escape_string($conn,$username); //escapes special characters in a string
     $password = stripslashes($_REQUEST['password']);
     $password = mysqli_real_escape_string($conn,$password);
-    $city = stripslashes($_REQUEST['city']);
-    $city = mysqli_real_escape_string($conn,$city);
     //Checking is user existing in the database or not
             $query = "SELECT * FROM `users` WHERE username='$username'";
-             
-              
     $result = mysqli_query($conn,$query) or die(mysql_error());
     $rows = mysqli_num_rows($result);
             if($rows==1){
-    
-    $_SESSION["username"] = $username.'<br>';
-   # $_SESSION["second"] = 'second hello'.'<br>';
-   #$_SESSION["city1"] = $city1.'<br>';
-     $_SESSION["query"] = $query.'<br>';
-    
-
-    header("Location: user_profile.php"); // Redirect user to index.php
+    $_SESSION['username'] = $username;
+ 
+    header("Location: user-profile.php"); // Redirect user to index.php
                 }else{
     echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
     }
