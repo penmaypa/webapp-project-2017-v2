@@ -1,5 +1,13 @@
 <?php
     include 'login.php';
+    
+    $user = 'root';
+   $pass = '';
+   $db = 'testdb';
+   
+   $conn = new mysqli('localhost', $user, $pass, $db) or die("Unable to connect");
+
+    
 
     $x=0;
     $y = 0;
@@ -11,17 +19,29 @@
     //for ($y = 0; $y <= 20; $y++) {
      //   echo $json["_embedded"]["events"][$y]["dates"]["start"]["localDate"]["localTime"],"<br>";
     //}
+    
+    $tempUsername = $_SESSION["username"];
+    $temp_name = (string)$tempUsername;
+    
+    echo 'Process 1 displays tempUsername: <br>'. $tempUsername;
+    echo 'Process 2 displays temp_name : <br> ' .$temp_name;
+    echo 'Below is should display the city <br>' ;
+    
+    $sql = "SELECT city FROM users where username='" . $temp_name . "';";
+    echo "SQL: " . $sql; exit;
+	$result = $conn->query($sql);
+
+	if ($result->num_rows > 0) {
+	// output data of each row
+	while($row = $result->fetch_assoc()) {
+		echo $row["city"] . " " . "<br>";
+	}
+	} else {
+	echo "0 results";
+	}
      
      
     //echo var_dumps($json["_embedded"]);
     session_start();
-    echo $_SESSION['myvar'];
      echo $_SESSION["username"];
-     echo $_SESSION["second"];
-     echo $_SESSION["city"];
-     echo $_SESSION["query"];
-     echo $_SESSION["getcity"];
-     echo $result1['price'];
-    echo $_SESSION["result1"];
-   echo $_SESSION["dog"];
 ?>
