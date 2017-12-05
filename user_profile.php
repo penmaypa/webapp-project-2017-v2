@@ -13,18 +13,37 @@
      //   echo $json["_embedded"]["events"][$y]["dates"]["start"]["localDate"]["localTime"],"<br>";
     //}
     
-    $tempUsername = $_SESSION["username"];
+$tempUsername = $_SESSION["username"];
 
-    echo "Process 1 displays tempUsername:"."$tempUsername";
+$newTempUsername = "";
+for ($i = 0; $i < strlen($tempUsername); $i++) {
 
-    $sql = "SELECT city FROM `users` WHERE username='penuel'";
+    if ($i < strlen($tempUsername) - 4) {
+        $newTempUsername .= $tempUsername[$i];
+    } 
+    
+}
+
+
+
+
+
+
+
+    // echo "Process 1 displays tempUsername:"."$tempUsername";
+    
+    // echo "select city from `users` where username = '" . $tempUsername . "'fhfdf;";
+
+    $sql = "SELECT city FROM `users` WHERE username='" . $tempUsername;
+    $sql = "SELECT city FROM `users` WHERE username='" . $newTempUsername . "'";
+    echo $sql;
 
 	$result = mysqli_query($conn,$sql) or die(mysql_error());
 
 	if ($result->num_rows > 0) {
 	// output data of each row
 	while($row = $result->fetch_assoc()) {
-		echo $row["city"] . " " . "<br>";
+// 		echo $row["city"] . " " . "<br>";
 	}
 	} else {
 	echo "0 results";
@@ -33,5 +52,5 @@
      
     //echo var_dumps($json["_embedded"]);
     //session_start();
-     echo $_SESSION["username"];
+    //  echo $_SESSION["username"];
 ?>
