@@ -18,7 +18,7 @@
 			<div class="collapse navbar-collapse navHeaderCollapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="profile.html">My Profile</a></li>
-					<li><a href="logout.html">Logout</a></li>
+					<li><a href=/"Login.php">Logout</a></li>
 					
 				</ul>
 			</div>
@@ -47,13 +47,16 @@
 		</div>
 	</div>
 	
+	<h1>Upcoming Events In Dublin</h1>
 	
 	<div class="fav">
 	<div class="row padding" id="about">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-						<h1>Upcoming events in Dublin</h1>
+						<h1>Artist</h1>
+					 	<br>
+					 	<br>
 				
 				<!-- $json = file_get_contents("https://app.ticketmaster.com/discovery/v2/events.json?apikey=EAMfG9ADdU4rCwmYkGGXxsG6ld8qx8p8&city=dublin&countryCode=IE&classificationName=music"); -->
 					
@@ -73,7 +76,7 @@
 					?>
 				
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-2">
 					   <h1>Dates</h1>
 					   <br>
 					   <br>
@@ -106,7 +109,7 @@
 		                   ?>
 		
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-2">
 						<h1>Times</h1>
 					   <br>
 					   <br>
@@ -138,8 +141,26 @@
 		                    
 		                   ?>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-2">
+							<h1>Venues</h1>
+					   <br>
+					   <br>
 						
+						
+						<?php
+
+							$x=0;
+							$y = 0;
+							
+							
+							$json = file_get_contents("https://app.ticketmaster.com/discovery/v2/events.json?apikey=EAMfG9ADdU4rCwmYkGGXxsG6ld8qx8p8&city=dublin&countryCode=IE&classificationName=music");
+							$json = json_decode($json, true);
+							
+							for ($x = 0; $x <= 20; $x++) {
+							    echo $json["_embedded"]["events"][$x]["_embedded"]["venues"][$y]["name"],"<br>";
+							}
+							
+						?>
 					</div>
 				</div>
 			</div>

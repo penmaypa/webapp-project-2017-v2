@@ -11,3 +11,4 @@
 [29-Nov-2017 12:53:32 UTC] PHP Stack trace:
 [29-Nov-2017 12:53:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
 [04-Dec-2017 14:33:23 UTC] PHP Parse error:  syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 71
+[05-Dec-2017 13:27:09 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 162

@@ -8,10 +8,10 @@ $json = file_get_contents("https://app.ticketmaster.com/discovery/v2/events.json
 $json = json_decode($json, true);
 
 for ($x = 0; $x <= 20; $x++) {
-    echo $json["_embedded"]["events"][$x]["images"],"<br>";
+    echo $json["_embedded"]["events"][$x]["_embedded"]["venues"][$y]["name"],"<br>";
 }
 //for ($y = 0; $y <= 20; $y++) {
- //   echo $json["_embedded"]["events"][$y]["dates"]["start"]["localDate"]["localTime"],"<br>";
+ //   echo $json["_embedded"]["events"][$y][""]["start"]["localDate"]["localTime"],"<br>";
 //}
 
  
@@ -19,7 +19,7 @@ for ($x = 0; $x <= 20; $x++) {
 //echo var_dumps($json["_embedded"]);
 
 
-//$apke = 'test';
-//echo test; 
+$apke = 'test';
+echo test; 
 
 ?>
