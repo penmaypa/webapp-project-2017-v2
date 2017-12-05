@@ -1,13 +1,6 @@
 <?php
     include 'login.php';
     
-    $user = 'root';
-   $pass = '';
-   $db = 'testdb';
-   
-   $conn = new mysqli('localhost', $user, $pass, $db) or die("Unable to connect");
-
-    
 
     $x=0;
     $y = 0;
@@ -21,15 +14,12 @@
     //}
     
     $tempUsername = $_SESSION["username"];
-    $temp_name = (string)$tempUsername;
-    
-    echo 'Process 1 displays tempUsername: <br>'. $tempUsername;
-    echo 'Process 2 displays temp_name : <br> ' .$temp_name;
-    echo 'Below is should display the city <br>' ;
-    
-    $sql = "SELECT city FROM users where username='" . $temp_name . "';";
-    echo "SQL: " . $sql; exit;
-	$result = $conn->query($sql);
+
+    echo "Process 1 displays tempUsername:"."$tempUsername";
+
+    $sql = "SELECT city FROM `users` WHERE username='penuel'";
+
+	$result = mysqli_query($conn,$sql) or die(mysql_error());
 
 	if ($result->num_rows > 0) {
 	// output data of each row
@@ -42,6 +32,6 @@
      
      
     //echo var_dumps($json["_embedded"]);
-    session_start();
+    //session_start();
      echo $_SESSION["username"];
 ?>

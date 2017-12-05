@@ -19,8 +19,7 @@
     //Checking is user existing in the database or not
             $query = "SELECT * FROM `users` WHERE username='$username'";
             $query2 = "SELECT city FROM `users` WHERE username='$username'";
-             
-              
+       
     $result = mysqli_query($conn,$query) or die(mysql_error());
     $result2 = mysqli_query($conn,$query2) or die(mysql_error());
     $rows = mysqli_num_rows($result);
@@ -30,6 +29,7 @@
                 }else{
     echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
     }
+
 }
 
 
