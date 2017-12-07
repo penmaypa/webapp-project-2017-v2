@@ -5,6 +5,7 @@
 <head>
 	<title> Gigs to Go</title>
      <link rel="stylesheet" href="css/style.css">
+	 <script src="js/effects.js"></script>
 
 </head>
 
@@ -27,8 +28,22 @@
 				  <input type="submit" name="save">
 				</form> 
 			
-			</div>
-			
+				
+				 <div class="front-container">
+					<a href="index.html">
+					<div class="front-link">
+					  Log In
+					</div>
+				  </a>
+				</div>
+					<br>
+				 <div class="front-container">
+					<a href="index.html">
+					<div class="front-link">
+					  Sign-Up
+					</div>
+				  </a>
+				</div>
 			
 		</div>
 		
