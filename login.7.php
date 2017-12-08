@@ -16,9 +16,8 @@
     $password = stripslashes($_REQUEST['password']);
     $password = mysqli_real_escape_string($conn,$password);
    
-    //and password='".md5($password)."'";
     //Checking is user existing in the database or not
-            $query = "SELECT * FROM `users` WHERE username='$username' and password='$password'";
+            $query = "SELECT * FROM `users` WHERE username='$username'";
             $query2 = "SELECT city FROM `users` WHERE username='$username'";
        
     $result = mysqli_query($conn,$query) or die(mysql_error());

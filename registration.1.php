@@ -14,11 +14,11 @@
 
    echo "Connected successfully <br> <br>";
    
-   //and password='".md5($password)."'";
+   
    //insert
 	if(isset($_POST['save']))
 	{
-		$sql = "INSERT INTO users (username, city, email, country, password)       
+		$sql = "INSERT INTO users (username, city, email, country, password)
 		VALUES ('".$_POST["username"]."','".$_POST["city"]."','".$_POST["email"]."','".$_POST["country"]."','".$_POST["password"]."')";
 
 		$result = mysqli_query($conn,$sql);
@@ -31,7 +31,7 @@
           <input type="varchar" name="username">
           <br>
           Password:<br>
-          <input type="password" name="password">
+          <input type="varchar" name="password">
           <br>
           Email:<br>
           <input type="varchar" name="email">
