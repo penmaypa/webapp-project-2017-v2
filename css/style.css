@@ -1,4 +1,8 @@
 
+body{
+	width: 80%;
+}
+
 .form{
 position: absolute;
   opacity: 0.8;
@@ -7,8 +11,8 @@ position: absolute;
   float: left;
   margin-top: 3vh;
   
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 3%;
+	margin-right: 0%;
 }
 
 .front-container{
@@ -59,6 +63,20 @@ position: absolute;
 	width: 400px;
 	color: red;
 	background-color: red;
+}
+
+h1{
+	color: white;
+    font-size: 80px;
+    position: relative;
+    left: 204px;
+}
+
+h3{
+	margin-left: 286px;
+	font-size: 27px;
+	color: white;
+	margin-top: -45px;
 }
 
 .mainbody{

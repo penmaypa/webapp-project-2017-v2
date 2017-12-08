@@ -28,18 +28,40 @@
 <html>
 	<head>
 		<title> Gigs to Go</title>
-		 <link rel="stylesheet" href="registration/style.css">
-		 <link rel="stylesheet" href="css/modal.css">
 		 <script src="js/effects.js"></script>
 		</head>
 	
 	<body>
-			<video autoplay loop id="video-background" muted plays-inline>
+			<video autoplay loop id="video-background" style="
+				margin-left: -20px;
+				position: fixed;
+				width: auto;
+				height: 123%;
+				z-index: -5;
+				margin-top: -100px;
+				left: 0;
+			" muted plays-inline>
 				<source src="videos/vidbg.mp4" type="video/mp4">
 			</video>
 
 		<div class="form">
-		<form action="registration.php" method="post">
+		<form action="registration.php" method="post" 
+			style="
+				position: absolute;
+				opacity: 0.8;
+				padding: 15px;
+				font-size: 1.4em;
+				float: left;
+				margin-top: 3vh;
+				  
+				margin-left: 15%;
+				margin-right: 15%;
+				background-color: white;
+				width: 300px;
+				border-radius: 20px;
+			">
+			<h1> Gigs to Go</h1>
+	
           Username:<br>
           <input type="varchar" name="username">
           <br>

@@ -16,6 +16,10 @@
 				<source src="videos/vidbg.mp4" type="video/mp4">
 			</video>
 			 
+			 <h1> Gigs to Go</h1>
+			 <h3> Go find your local gig</h3>
+			
+			 
 			<div class="form">
 				 <div id="myBtn" class="front-container">
 					<a>
@@ -51,7 +55,7 @@
 				  <input type="varchar" name="username">
 				  <br>
 				  Password:<br>
-				  <input type="varchar" name="city">
+				  <input type="password" name="password">
 				  <br><br>
 				  <input type="submit" name="save">
 				</form> 
