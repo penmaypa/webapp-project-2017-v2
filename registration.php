@@ -12,7 +12,7 @@
 	die("Connection failed: " . mysqli_connect_error());
    }
 
-   echo "Connected successfully <br> <br>";
+   echo "Connected <br> <br>";
    
    //and password='".md5($password)."'";
    //insert
@@ -26,7 +26,20 @@
 ?>
 
 <html>
-       <form action="registration.php" method="post">
+	<head>
+		<title> Gigs to Go</title>
+		 <link rel="stylesheet" href="registration/style.css">
+		 <link rel="stylesheet" href="css/modal.css">
+		 <script src="js/effects.js"></script>
+		</head>
+	
+	<body>
+			<video autoplay loop id="video-background" muted plays-inline>
+				<source src="videos/vidbg.mp4" type="video/mp4">
+			</video>
+
+		<div class="form">
+		<form action="registration.php" method="post">
           Username:<br>
           <input type="varchar" name="username">
           <br>
@@ -46,6 +59,11 @@
           <br>
           <input type="submit" name="save">
         </form> 
+		
+		</div>
+		
+	</body>
+       
 </html>
 
 
