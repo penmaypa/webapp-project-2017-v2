@@ -41,7 +41,7 @@
           <input type="varchar" name="username">
           <br>
          Password: <br>
-          <input type="varchar" name="password">
+          <input type="password" name="password">
           <br><br>
           <input type="submit" name="login">
         </form> 
