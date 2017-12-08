@@ -8,7 +8,7 @@
 	$json = json_decode($json, true);
 						
 	for ($x = 0; $x <= 20; $x++) {
-	  echo $json["_embedded"]["events"][$x]["name"],"<br>";
+	  echo $json["_embedded"]["events"][$x]["url"],"<br>";
 	}	
 	
 //for ($y = 0; $y <= 20; $y++) {

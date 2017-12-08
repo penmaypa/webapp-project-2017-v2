@@ -12,3 +12,69 @@
 [29-Nov-2017 12:53:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
 [04-Dec-2017 14:33:23 UTC] PHP Parse error:  syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 71
 [05-Dec-2017 13:27:09 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 162
+[06-Dec-2017 12:34:11 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 186
+[06-Dec-2017 12:50:54 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[06-Dec-2017 13:26:30 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 15:49:40 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 180
+[07-Dec-2017 15:55:48 UTC] PHP Parse error:  syntax error, unexpected '0' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 16:01:46 UTC] PHP Warning:  Illegal string offset '<a href =' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:01:46 UTC] PHP Stack trace:
+[07-Dec-2017 16:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:02:46 UTC] PHP Warning:  Illegal string offset '<a href= url> Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:02:46 UTC] PHP Stack trace:
+[07-Dec-2017 16:02:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:07:56 UTC] PHP Warning:  Illegal string offset '<a href= ['url']> Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:07:56 UTC] PHP Stack trace:
+[07-Dec-2017 16:07:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:11:47 UTC] PHP Warning:  Illegal string offset '<a href= '[url]'> Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:11:47 UTC] PHP Stack trace:
+[07-Dec-2017 16:11:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:17:56 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:27:47 UTC] PHP Warning:  Illegal string offset '<a href= > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:27:47 UTC] PHP Stack trace:
+[07-Dec-2017 16:27:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:27:57 UTC] PHP Warning:  Illegal string offset '<a href= > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:27:57 UTC] PHP Stack trace:
+[07-Dec-2017 16:27:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:28:09 UTC] PHP Warning:  Illegal string offset '<a href= > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:28:09 UTC] PHP Stack trace:
+[07-Dec-2017 16:28:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:29:43 UTC] PHP Warning:  Illegal string offset '<a href= '[url]' > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:29:43 UTC] PHP Stack trace:
+[07-Dec-2017 16:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:31:50 UTC] PHP Warning:  Illegal string offset '<a href= https://app.ticketmaster.com/discovery/v2/events.json?apikey=EAMfG9ADdU4rCwmYkGGXxsG6ld8qx8p8&city=dublin&countryCode=IE&classificationName=music  > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:31:50 UTC] PHP Stack trace:
+[07-Dec-2017 16:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:40:26 UTC] PHP Warning:  Illegal string offset '<a href=  > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:40:26 UTC] PHP Stack trace:
+[07-Dec-2017 16:40:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:40:35 UTC] PHP Warning:  Illegal string offset '<a href=  > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 187
+[07-Dec-2017 16:40:35 UTC] PHP Stack trace:
+[07-Dec-2017 16:40:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:55:22 UTC] PHP Warning:  Illegal string offset '<a href=  > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 16:55:22 UTC] PHP Stack trace:
+[07-Dec-2017 16:55:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:55:30 UTC] PHP Warning:  Illegal string offset '<a href=  > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 16:55:30 UTC] PHP Stack trace:
+[07-Dec-2017 16:55:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:55:31 UTC] PHP Warning:  Illegal string offset '<a href=  > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 16:55:31 UTC] PHP Stack trace:
+[07-Dec-2017 16:55:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:55:31 UTC] PHP Warning:  Illegal string offset '<a href=  > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 16:55:31 UTC] PHP Stack trace:
+[07-Dec-2017 16:55:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:55:38 UTC] PHP Warning:  Illegal string offset '<a href=  > Click Here </a>' in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 16:55:38 UTC] PHP Stack trace:
+[07-Dec-2017 16:55:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 16:57:44 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 16:57:44 UTC] PHP Stack trace:
+[07-Dec-2017 16:57:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 17:01:14 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 17:01:14 UTC] PHP Stack trace:
+[07-Dec-2017 17:01:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 17:03:21 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 17:03:21 UTC] PHP Stack trace:
+[07-Dec-2017 17:03:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0
+[07-Dec-2017 17:06:37 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/FrontEnd-WebPage/home.php on line 188
+[07-Dec-2017 17:06:37 UTC] PHP Stack trace:
+[07-Dec-2017 17:06:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/FrontEnd-WebPage/home.php:0

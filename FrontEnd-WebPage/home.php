@@ -53,12 +53,13 @@
 	<div class="row padding" id="about">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-5">
 						<h1>Artist</h1>
 					 	<br>
 					 	<br>
 				
 				<!-- $json = file_get_contents("https://app.ticketmaster.com/discovery/v2/events.json?apikey=EAMfG9ADdU4rCwmYkGGXxsG6ld8qx8p8&city=dublin&countryCode=IE&classificationName=music"); -->
+				<p style="font-size:18px;">	
 					
 					<?php 
 					
@@ -74,14 +75,15 @@
 						    echo $json["_embedded"]["events"][$x]["name"],"<br>";
 						}	
 					?>
+				</p>
 				
 					</div>
 					<div class="col-md-2">
 					   <h1>Dates</h1>
 					   <br>
 					   <br>
-					   
-					   
+					   <p style="font-size:18px;">	
+
 					    <?php
 		                    
 		                    $x=0;
@@ -107,6 +109,7 @@
 		                    //echo test; 
 		                    
 		                   ?>
+		                  </p>
 		
 					</div>
 					<div class="col-md-2">
@@ -114,7 +117,7 @@
 					   <br>
 					   <br>
 					   
-					   
+					   <p style="font-size:18px;">		 	
 					    <?php
 		                    
 		                    $x=0;
@@ -140,13 +143,15 @@
 		                    //echo test; 
 		                    
 		                   ?>
+		                 </p>
+		                 
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-3">
 							<h1>Venues</h1>
 					   <br>
 					   <br>
 						
-						
+					<p style="font-size:18px;">	
 						<?php
 
 							$x=0;
@@ -161,6 +166,35 @@
 							}
 							
 						?>
+					</p>
+					</div>
+					<div class="col-md-1">
+						<h1>Get Tickets</h1>
+						<br>
+					  	<br>
+						
+						<p>
+						
+
+							<?php
+								$x=0;
+								// $y = "<a href=  > Click Here </a>";
+													
+													
+								$json = file_get_contents("https://app.ticketmaster.com/discovery/v2/events.json?apikey=EAMfG9ADdU4rCwmYkGGXxsG6ld8qx8p8&city=dublin&countryCode=IE&classificationName=music");
+								$json = json_decode($json, true);
+								$some = $json;					
+								
+								 echo $json["_embedded"]["events"][$x]["url"]/*[$y]*/,"<br>";
+								// echo "<a href='0'> Click Here </a>";
+								
+								$url =$json["_embedded"]["events"][$x]["url"];
+								
+							?>
+							<a <?php echo "href=$url"?>  > Click Here </a>
+						</p>
+	}	
+						
 					</div>
 				</div>
 			</div>
