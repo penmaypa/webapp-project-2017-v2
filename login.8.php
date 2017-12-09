@@ -46,6 +46,12 @@
           <br><br>
           <input type="submit" name="login">
         </form> 
+        
+        
+        <script>
+            alert('message');
+            window.location = 'index.php';
+        </script>
 </html>
 
 
