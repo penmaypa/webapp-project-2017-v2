@@ -26,8 +26,12 @@
                 if($rows==1){
                     header("Location: user_profile.php"); // Redirect user to index.php
                  }else{
-                        header("Location: index.php") ;
-        echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>";
+                        header("Location: index.php"; );
+                        echo '<script language="javascript">';
+                        echo 'alert("Wrong username/password")';
+                        echo 'window.location = '.'/some/url';
+                        echo ;
+                        echo '</script>';
         }
     
     }
