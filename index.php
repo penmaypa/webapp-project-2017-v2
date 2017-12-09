@@ -1,5 +1,5 @@
 <?php
-    echo "hello world"
+    echo "connecting ..."
 ?>
 <html>
 <head>

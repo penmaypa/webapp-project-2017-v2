@@ -35,16 +35,14 @@
             
             ?>
           <html>
-                <body onload="myFunction()">
-                
-                <h1>Hello World!</h1>
-                
+            <body onload="myFunction()">
                 <script>
-                function myFunction() {
-                    alert("Page is loaded");
-                }
+                    function myFunction() {
+                      alert('You have type the wrong username/password');
+                    window.location = 'index.php';
+                    };
                 </script>
                 
-                </body>
-            </html>
+            </body>
+        </html>
 
