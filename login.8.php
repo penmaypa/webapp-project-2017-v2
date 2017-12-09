@@ -28,13 +28,25 @@
 
     header("Location: user_profile.php"); // Redirect user to index.php
                 }else{
-                    header("Location: index.php") ;
-    echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>";
+    echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
     }
 
 }
 
 
 ?>
+
+<html>
+       <form action="login.php" method="post">
+          Username:<br>
+          <input type="varchar" name="username">
+          <br>
+         Password: <br>
+          <input type="password" name="password">
+          <br><br>
+          <input type="submit" name="login">
+        </form> 
+</html>
+
 
 

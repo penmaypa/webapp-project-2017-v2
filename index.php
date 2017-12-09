@@ -50,7 +50,7 @@
 			  <h2>Log-In</h2>
 			</div>
 			<div class="modal-body">
-				<form action="displaydata.php" method="post">
+				<form action="login.php" method="post">
 				  Username:<br>
 				  <input type="varchar" name="username">
 				  <br>
