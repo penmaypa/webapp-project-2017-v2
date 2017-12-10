@@ -1,7 +1,6 @@
 
 <?php
     include 'login.php';
-    
 
     $x=0;
     $y = 0;
@@ -10,13 +9,10 @@
     for ($x = 0; $x <= 20; $x++) {
         echo $json["_embedded"]["events"][$x]["name"],"<br>";
     }
-    //for ($y = 0; $y <= 20; $y++) {
-     //   echo $json["_embedded"]["events"][$y]["dates"]["start"]["localDate"]["localTime"],"<br>";
-    //}
     
-    $tempUsername = $_SESSION["username"];
+    $user_city = $_SESSION["username"];
 
-    echo "Process 1 displays tempUsername:"."$tempUsername";
+    echo "Process 1 displays tempUsername:"."$user_city";
 
     $sql = "SELECT city FROM `users` WHERE username='penuel'";
 
