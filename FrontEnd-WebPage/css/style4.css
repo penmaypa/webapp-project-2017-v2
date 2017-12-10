@@ -1,0 +1,11 @@
+.jumbotron4 {
+  background-image:url(../Glasgow.jpg);
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.jumbotron4 .container {
+  position:relative;
+  top:50px;
+}
