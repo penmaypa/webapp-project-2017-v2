@@ -1,3 +1,6 @@
+<!-- Ticket Master Documentation and code:
+		REFERENCE: 	https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/ -->
+
 <!DOCTYPE html>
 <html>
 	<head>

@@ -11,7 +11,9 @@
 
 
 
-	<body>
+		<body>  
+			<!-- The css style for this was taken from my old project at:
+			https://gitlab.com/penmaypa/NCI-Runners/blob/master/Web%20Dev%20v2/index.html#L74-->
 			<video autoplay loop id="video-background" muted plays-inline>
 				<source src="videos/vidbg.mp4" type="video/mp4">
 			</video>
@@ -29,7 +31,9 @@
 					</a>
 				</div>
 				
+					
 					<!-- The Modal -->
+				<!-- Modified code from reference at : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal2-->
 					<br>
 				 <div class="front-container">
 					<a href="registration.php">
@@ -63,6 +67,7 @@
 		  </div>
 		</div>
 		
+		<!-- Modified code - Reference at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal2-->
 		<script>
 			// Get the modal
 			var modal = document.getElementById('myModal');
@@ -85,7 +90,7 @@
 				}
 			}
 		</script>
-
+		<!--code modified to here-->
 		
 
 	</body>

@@ -1,4 +1,4 @@
-
+/* Code used and modified - REFERENCE at https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal2*/
 
 //MODAL
 // Get the modal
