@@ -28,3 +28,33 @@
 [10-Dec-2017 13:28:26 UTC] PHP Stack trace:
 [10-Dec-2017 13:28:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:0
 [10-Dec-2017 13:28:26 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:11
+[10-Dec-2017 13:37:28 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/frontend_webpage/index/dublin.php on line 2
+[10-Dec-2017 13:37:28 UTC] PHP Stack trace:
+[10-Dec-2017 13:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:0
+[10-Dec-2017 13:37:28 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/frontend_webpage/index/dublin.php on line 2
+[10-Dec-2017 13:37:28 UTC] PHP Stack trace:
+[10-Dec-2017 13:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:0
+[10-Dec-2017 13:37:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/frontend_webpage/index/dublin.php on line 11
+[10-Dec-2017 13:37:28 UTC] PHP Stack trace:
+[10-Dec-2017 13:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:0
+[10-Dec-2017 13:37:28 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:11
+[10-Dec-2017 13:38:20 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/frontend_webpage/index/dublin.php on line 2
+[10-Dec-2017 13:38:20 UTC] PHP Stack trace:
+[10-Dec-2017 13:38:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:0
+[10-Dec-2017 13:38:20 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/frontend_webpage/index/dublin.php on line 2
+[10-Dec-2017 13:38:20 UTC] PHP Stack trace:
+[10-Dec-2017 13:38:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:0
+[10-Dec-2017 13:38:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/frontend_webpage/index/dublin.php on line 11
+[10-Dec-2017 13:38:20 UTC] PHP Stack trace:
+[10-Dec-2017 13:38:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:0
+[10-Dec-2017 13:38:20 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:11
+[10-Dec-2017 13:39:19 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/frontend_webpage/index/dublin.php on line 2
+[10-Dec-2017 13:39:19 UTC] PHP Stack trace:
+[10-Dec-2017 13:39:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:0
+[10-Dec-2017 13:39:19 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/frontend_webpage/index/dublin.php on line 2
+[10-Dec-2017 13:39:19 UTC] PHP Stack trace:
+[10-Dec-2017 13:39:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:0
+[10-Dec-2017 13:39:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/frontend_webpage/index/dublin.php on line 11
+[10-Dec-2017 13:39:19 UTC] PHP Stack trace:
+[10-Dec-2017 13:39:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:0
+[10-Dec-2017 13:39:19 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/frontend_webpage/index/dublin.php:11

@@ -1,43 +1,10 @@
-<?php
-    include 'login.php';
-
-   
-    $user_city = $_SESSION["username"];
-
-    echo "Process 1 displays tempUsername:"."$user_city";
-
-    $sql = "SELECT city FROM `users` WHERE username='penuel'";
-
-	$result = mysqli_query($conn,$sql) or die(mysql_error());
-
-	if ($result->num_rows > 0) {
-	// output data of each row
-	while($row = $result->fetch_assoc()) {
-		echo $row["city"] . " " . "<br>";
-	}
-	} else {
-	echo "0 results";
-	}
-     
-     
-    //echo var_dumps($json["_embedded"]);
-    //session_start();
-     echo $_SESSION["username"];
-     
-?>
-
-
-
-
-
-
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>Giggs2Go in Dublin</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="frontend_webpage/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="frontend_webpage/css/style.css" />
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/style.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
