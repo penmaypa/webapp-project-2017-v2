@@ -16,7 +16,7 @@
 				<source src="videos/vidbg.mp4" type="video/mp4">
 			</video>
 			 
-			 <h1> Gigs to Go</h1>
+			 <h1> Giggs to Go</h1>
 			 <h3> Go find your local gig</h3>
 			
 			 

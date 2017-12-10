@@ -14,7 +14,7 @@
 
    echo "Connected <br> <br>";
    
-   //and password='".md5($password)."'";
+  
    //insert
 	if(isset($_POST['save']))
 	{
