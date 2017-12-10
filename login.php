@@ -27,22 +27,18 @@
                    
                 header("Location: user_profile.php"); // Redirect user to index.php
                             }else{
-                echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
-                }
+                echo "<div class='form'><h2>Username/password is incorrect.</h2><br/><h1>Click here to  <a href='index.php'>Log In again !</a></div></h1>";
+                echo "<h1> or choose your city here</h1>";
+                 echo "<h2><a href='dublin.php'>Dublin</a></h2>" ;
+        		echo "<h2><a href='cork.php'>Cork</a></h2>" ;
+        		echo "<h2><a href='london.php'>London</a></h2>" ;
+        		echo "<h2><a href='manchester.php'>Manchester</a><h2>" ;
+        		echo "<h2><a href='galway.php'>Galway</a></h2>" ;
+        		echo "<h2><a href='birmingham.php'>Birmingham</a></h2>" ;
+        		echo "<h2><a href='glasgow.php'>Glasgow</a></h2>" ;
             
-            }
+                }
+     }
             
             
             ?>
-          <html>
-            <body onload="myFunction()">
-                <script>
-                    function myFunction() {
-                      alert('You have type the wrong username/password');
-                    window.location = 'index.php';
-                    };
-                </script>
-                
-            </body>
-        </html>
-
