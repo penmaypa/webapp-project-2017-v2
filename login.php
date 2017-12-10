@@ -1,5 +1,7 @@
 <?php
 // Extract data from the data base
+// The code below is from one of the labs and also sent from Glen (lecturer)
+
     session_start();
 
 
