@@ -1,0 +1,12 @@
+.jumbotron5 {
+  background-image:url(../Manchester.jpg);
+  height:500px;
+  width: 110%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.jumbotron5 .container {
+  position:relative;
+  top:50px;
+}

@@ -1,0 +1,11 @@
+.jumbotron2 {
+  background-image:url(../Cork.jpg);
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.jumbotron2 .container {
+  position:relative;
+  top:50px;
+}

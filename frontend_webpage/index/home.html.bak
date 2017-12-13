@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Giggs2Go Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.min.css" />
+		<link rel="stylesheet" href="../css/style7.css" />
+		<script src="https://ticketmaster-api-staging.github.io/products-and-docs/widgets/event-discovery/1.0.0/lib/main-widget.js"></script>	<body>
+
+	
+	<div class="jumbotron7">
+		<div class="container">
+		<h1 style="color:red;">Welcome to Giggs2Go</h1>
+		</div>
+	</div>
+	
+	<div class="fav">
+		<div class="container" id="artist">
+			<div class="col-md-7">
+				<h1>Discover Events in Ireland</h1>	
+				<div w-type="event-discovery" w-tmapikey="EAMfG9ADdU4rCwmYkGGXxsG6ld8qx8p8" w-googleapikey="AIzaSyAlMjZin7qawEvbOpsk5nmCi1oBNedQvcs" w-keyword="" w-theme="simple" w-colorscheme="light" w-width="620" w-height="286" w-size="25" w-border="0" w-borderradius="4" w-postalcode="" w-radius="25" w-period="week" w-layout="horizontal" w-attractionid="" w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom" w-titlelink="off" w-countrycode="IE" w-source="" w-city="" w-classificationname="music" w-latlong=""></div>			
+				<script src="https://ticketmaster-api-staging.github.io/products-and-docs/widgets/event-discovery/1.0.0/lib/main-widget.js"></script>	<body>
+			</div>
+			<div class="col-md-6">
+				<h1>Discover Events In The UK</h1>
+				<div w-type="event-discovery" w-tmapikey="EAMfG9ADdU4rCwmYkGGXxsG6ld8qx8p8" w-googleapikey="AIzaSyCOXZBoytJoXZEy1zJAUpW61sZQuetZy9k" w-keyword="" w-theme="simple" w-colorscheme="light" w-width="620" w-height="286" w-size="25" w-border="0" w-borderradius="4" w-postalcode="" w-radius="25" w-period="week" w-layout="horizontal" w-attractionid="" w-promoterid="" w-venueid="" w-affiliateid="" w-segmentid="" w-proportion="custom" w-titlelink="off" w-countrycode="GB" w-source="" w-city="" w-classificationname="music" w-latlong=""></div>
+				<script src="https://ticketmaster-api-staging.github.io/products-and-docs/widgets/event-discovery/1.0.0/lib/main-widget.js"></script>
+			</div>
+		</div>
+	</div>
+		
+		<div class="fav">
+		<div class="container" id="artist">
+			<div class="col-md-6">
+			<h1>Select Your Nearest Location</h1>
+			</div>
+		</div>
+		</div>
+		<div class="fav">
+		<div class="container" id="artist">	
+			<div class="col-md-3">
+				<h2><a href="dublin.php">Dublin</a></h2>
+				</br>
+				<h2><a href="cork.php">Cork</a></h2>
+			</div>
+			<div class="col-md-3">
+				<h2><a href="london.php">London</a></h2>
+				</br>
+				<h2><a href="manchester.php">Manchester</a><h2>
+			</div>
+			<div class="col-md-3">
+				<h2><a href="galway.php">Galway</a></h2>
+				</br>
+				<h2><a href="birmingham.php">Birmingham</a></h2>
+			</div>
+			<div class="col-md-3">
+				<h2><a href="glasgow.php">Glasgow</a></h2>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>

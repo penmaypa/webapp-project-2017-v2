@@ -1,0 +1,11 @@
+.jumbotron1 {
+  background-image:url(../Galway.jpg);
+  height:500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.jumbotron1 .container {
+  position:relative;
+  top:50px;
+}
